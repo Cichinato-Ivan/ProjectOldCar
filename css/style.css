@@ -3,16 +3,26 @@ body{
 }
 
 a{
-
+    text-decoration: none;
 }
 
 a:hover{
-
+    text-decoration: underline;
 }
 
 header{
     background: url(../img/fundoHeader.jpg);
-    /*background: rgba(255, 228, 196, 0.7);*/
-    width: max-content;
-    height: 600px;
+    background-repeat:no-repeat;   
+    background-position:center;   
+    background-size: cover;
+    height: 60vh;
+    /* no-repeat;
+    background-color: rgba(122, 82, 33, 0.3);
+    width: 100%;
+    */
+}
+
+.vermelhao{
+    background-color: rgba(122, 82, 33, 0.7);
+    height: 60vh;
 }
