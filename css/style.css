@@ -1,0 +1,18 @@
+body{
+    background-color: 	#FFEBCD;
+}
+
+a{
+
+}
+
+a:hover{
+
+}
+
+header{
+    background: url(../img/fundoHeader.jpg);
+    /*background: rgba(255, 228, 196, 0.7);*/
+    width: max-content;
+    height: 600px;
+}
