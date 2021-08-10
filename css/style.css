@@ -2,12 +2,16 @@ body{
     background-color: 	#FFEBCD;
 }
 
-a{
+a.main{
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
     text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
+a.main:hover{
+    color: black;
+    background: white;
 }
 
 header{
@@ -22,7 +26,7 @@ header{
     */
 }
 
-.vermelhao{
-    background-color: rgba(122, 82, 33, 0.7);
+.custon-bg{
+    background-color: rgba(80, 80, 80, 0.7);
     height: 60vh;
 }
